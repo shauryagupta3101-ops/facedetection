@@ -12,7 +12,7 @@ faces=model. detectMultiScale(img, 1.3,5)# (scale factor )1.3 for the reduction 
 print(faces)
 
 for face in faces :
-    x1=face[0]
+    x1=face[0] 
     y1=face[1]
     x2=x1+face[2]
     y2=y1+face[3]
